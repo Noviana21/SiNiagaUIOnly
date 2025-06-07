@@ -1,0 +1,62 @@
+.custom-h1 {
+    background: linear-gradient(120deg, #b6c7aa, #1E1E1E);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+}
+
+.custom-h2 {
+    background: linear-gradient(60deg, #6b7f61, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.custom-bg {
+    background: #4e5847;
+    color: #F2F2F7;
+}
+
+/* .custom-bg2 {
+    background: #A0937D;
+    color: #f2f2f2;
+} */
+
+.colorr {
+    background-color: transparent;
+    border-color: #4e5847;
+    color: #4e5847;
+}
+
+.our-story-bg {
+    position: relative;
+    background-image: url('../assets/latbel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.our-story-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(242, 242, 247, 0.8);
+    z-index: 1;
+}
+
+.our-story-bg > * {
+    position: relative;
+    z-index: 2;
+}
+
+.bg1 {
+    background: #b6c7aa;
+}
+
+.bg2 {
+    background: #f6e6cb;
+}
