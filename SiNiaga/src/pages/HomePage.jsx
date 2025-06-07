@@ -46,10 +46,10 @@ export default function HomePage() {
                             </p>
                         </div>
                         <div className="text-left gap-3">
-                            <Link to="/signin" className="inline-block custom-bg text-[#F2F2F7] px-14 py-3 rounded-full font-medium mr-6 transition-colors duration-300 hover:bg-[#6b7f61]">
+                            <Link to="/signin" className="inline-block custom-bg text-[#F2F2F7] px-16 py-3 rounded-full font-medium ml-3 mr-4 transition-colors duration-300 hover:bg-[#6b7f61]">
                                 Sign In
                             </Link>
-                            <Link to="/signup" className="inline-block border-2 colorr px-14 py-3 font-medium rounded-full transition-colors duration-300 hover:border-[#6b7f61] hover:text-[#6b7f61]">
+                            <Link to="/signup" className="inline-block border-2 colorr px-16 py-3 font-medium rounded-full transition-colors duration-300 hover:border-[#6b7f61] hover:text-[#6b7f61]">
                                 Sign Up
                             </Link>
                         </div>
