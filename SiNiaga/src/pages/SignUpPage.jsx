@@ -26,7 +26,7 @@ export default function SignUpPage() {
         <div className="min-h-screen flex items-center flex-col justify-center px-6 pb-4 mt-16 scroll-smooth md:scroll-auto">
             <div className="max-w-7xl w-full">
                 <div className="grid md:grid-cols-5 gap-2 ml-8 items-center justify-center">
-                    <div className="md:col-span-3 px-8 py-2 text-center flex flex-col max-w-xl">
+                    <div className="md:col-span-3 px-8 py-2 ml-4 text-center flex flex-col max-w-xl">
                         <div data-aos="fade-left">
                             <h1 className="text-4xl font-bold custom-h1">Create New Account</h1>
                             <p className="px-2 mb-4">Please complete all information to create your account on SiNiaga</p>
